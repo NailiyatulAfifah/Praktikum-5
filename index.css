@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Simplicity;
+    src: url(Simplicity-Regular.otf);
+}
+@font-face {
+    font-family: Blikfang DEMO;
+    src: url(blikfangDEMO_1.otf);
+}
+body {
+  background-image: url(architecture-berlin-building-586570.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* BOX */
+.box {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 6%;
+  overflow: hidden;
+  height: auto;
+  width: 35%;
+  background-color: rgba(31, 17, 16, 0.5);
+}
+
+/* JUDUL */
+img {
+  height: 150px;
+  width: auto;
+  text-align: center;
+}
+
+/* FORM */
+.form {
+  text-align: center;
+}
+.form-input {
+  text-decoration: none;
+  border: 0;
+  font-size: 32px;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+  background-color: transparent;
+  width: 55%;
+  color: white;
+  font-family: Simplicity;
+}
+.form-input:focus {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+  color: white;
+}
+p {
+  font-size: 32px;
+  padding: 5px 0;
+  text-align: center;
+}
+.submit {
+  font-family: Blikfang DEMO;
+  font-size: 25px;
+  width: 55%;
+  margin: auto;
+  background-color: #1f1110;
+  border: 2px solid #1f1110;
+  color: white;
+  margin-top: 5px;
+  padding-top: 10px;
+  height: auto;
+}
+.submit:hover {
+  height: auto;
+  background-color: white;
+  border: 2px solid white;
+  color: #1f1110;
+}
+.submit a {
+  text-decoration: none;
+  color: #1f1110;
+}
